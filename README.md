@@ -30,6 +30,11 @@ pip install arklex
 # Create .env file
 echo "OPENAI_API_KEY=your_key_here" > .env
 
+# Clone the repository (required if you want to run example/test scripts)
+git clone https://github.com/arklexai/Agent-First-Organization.git
+cd Agent-First-Organization
+pip install -e .
+
 # Test your API keys (recommended)
 python test_api_keys.py
 
